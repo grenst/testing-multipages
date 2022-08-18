@@ -1,0 +1,13 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.email-link {
+  display: block;
+  font-weight: bolder;
+  text-decoration: none;
+  color: cornflowerblue;
+  text-align: center;
+}
