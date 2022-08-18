@@ -15,3 +15,27 @@ h3 {
 .brr {
   margin-top: 90px;
 }
+
+@media (max-width: 600px) {
+  spans {
+    text-align: center !important;
+  }
+}
+
+.img1 {
+  width: 100vw;
+  height: 30vw;
+  object-fit: cover;
+}
+
+.img2 {
+  width: 100vw;
+  height: 30vw;
+  object-fit: cover;
+}
+
+.img3 {
+  width: 100vw;
+  height: 35vw;
+  object-fit: cover;
+}
