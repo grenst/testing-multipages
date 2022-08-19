@@ -15,26 +15,28 @@
       crossorigin="anonymous"
     ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Olena Makarova</title>
+    <title>Olena Makarova - SheCodes.io student</title>
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
-    <nav class="navbar  fixed-top navbar-expand-lg bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light p-1">
       <div class="container-fluid">
-        <a class="navbar-brand fw-semibold" href="https://www.shecodes.io" target="_blank">SheCodes</a>
+        <a class="navbar-brand fw-semibold" href="https://www.shecodes.io" target="_blank" title="Link on courses SheCodes.io">
+          <div class="logo" ></div>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link active" aria-current="page" href="/" title="Home page">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a class="nav-link" href="about.html#contact" title="Contacts page">Contact me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
+              <a class="nav-link" href="about.html" title="Contact with me for more Info about my new ideas">About me</a>
             </li>
           </ul>
           <span class="navbar-text">
@@ -58,30 +60,33 @@
       </div>
     </div>
     <div class="container mt-4">
-      <div class="row justify-content-md-center">
-        <a href="about.html#contact" class="col-md-2 btn btn-primary m-2 shadow">Contact me</a>
-        <a href="about.html" class="col-md-2 btn btn-secondary m-2 shadow">About me</a>
+      <div class="row justify-content-md-center gap-2 px-4 m-0">
+        <a href="about.html#contact" class="col-md-2 btn btn-primary shadow" title="Contact with me for more Info about my new ideas">Contact me</a>
+        <a href="about.html" class="col-md-2 btn btn-secondary shadow" title="About me page">About me</a>
       </div>
     </div>
     <div class="container">
-      <div class="row justify-content-md-center mt-5">
-        <div class="col-md-4">
-          <img src="images/weather.png" class="img-fluid shadow rounded p-1" />
+      <div class="row justify-content-md-center mt-5 gap-1">
+        <div class="col-md-3">
+          <img src="images/weather.png" class="img-fluid shadow rounded p-1" alt="Photo of my Weather app"/>
         </div>
-        <div class="col-md-4">
-          <img src="images/yoga.png" class="img-fluid shadow rounded p-1" />
+        <div class="col-md-3">
+          <img src="images/yoga.png" class="img-fluid shadow rounded p-1" alt="Photo of my Yoga site"/>
         </div>
-        <div class="col-md-4">
-          <img src="images/yogurt.png" class="img-fluid shadow rounded p-1" />
+        <div class="col-md-3">
+          <img src="images/yogurt.png" class="img-fluid shadow rounded p-1" alt="Photo of the yogurt)"/>
         </div>
       </div>
     </div>
-    <div class="about-paragraphs text-center mt-5">
+    <div class="about-paragraphs text-center mt-5 px-5">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, itaque! Iste dolorem quaerat fugiat autem,
         cumque aliquam rerum amet recusandae repellendus debitis asperiores impedit, provident voluptate, modi libero
         labore soluta?
       </p>
+    </div>
+    <div class="footer fixed-bottom text-center">
+      Coded by Makarova Olena <a class="gitlink" href="https://github.com/grenst/testing-multipages" title="Code of that site on GitHub">(GitHub source)</span>
     </div>
   </body>
 </html>

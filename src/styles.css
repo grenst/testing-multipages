@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+}
+
+body {
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3 {
@@ -13,12 +23,19 @@ h3 {
 }
 
 .brr {
+  min-width: 100%;
   margin-top: 90px;
 }
 
-@media (max-width: 600px) {
-  spans {
-    text-align: center !important;
+@media (max-width: 767px) {
+  .brr {
+    min-width: 100%;
+    margin-top: 120px;
+    margin-left: 3vw;
+  }
+  .brro {
+    max-width: 100vw;
+    margin-left: 5vw;
   }
 }
 
@@ -38,4 +55,58 @@ h3 {
   width: 100vw;
   height: 35vw;
   object-fit: cover;
+}
+
+.logo {
+  width: 150px;
+  height: 40px;
+  background-image: url(/images/logo-shecodes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: glitch 3.5s infinite steps(1);
+  transition: all 0.2s;
+}
+
+@keyframes glitch {
+  0%,
+  100% {
+    background-image: url(/images/logo-shecodes.png);
+    background-size: cover;
+  }
+  98% {
+    background-image: url(/images/glitch-image-1660903059.png);
+    background-size: cover;
+  }
+  96% {
+    background-image: url(/images/glitch-image-1660903062.png);
+    background-size: cover;
+  }
+  95% {
+    background-image: url(/images/glitch-image-1660903063.png);
+    background-size: cover;
+  }
+  93% {
+    background-image: url(/images/glitch-image-1660903065.png);
+    background-size: cover;
+  }
+  92% {
+    background-image: url(/images/glitch-image-1660903066.png);
+    background-size: cover;
+  }
+  91% {
+    background-image: url(/images/glitch-image-1660903068.png);
+    background-size: cover;
+  }
+}
+
+.footer {
+  background-color: aliceblue;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-size: x-small;
+}
+
+.gitlink {
+  text-decoration: none;
+  color: rgb(129, 84, 0);
 }
