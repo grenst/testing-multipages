@@ -28,7 +28,8 @@ h3 {
 }
 
 h1,
-h3 {
+h3,
+h4 {
   font-family: var(--heading-font-family);
 }
 
@@ -42,17 +43,28 @@ h2 {
   font-size: 36px;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
 .topper {
   margin-top: 40px;
 }
 
 .content {
-  margin-top: 195px;
+  margin-top: 15px;
 }
 
 .buttons {
   margin-top: 50px;
-  margin-bottom: 500px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
 }
@@ -113,6 +125,50 @@ h2 {
     background-image: url(/images/glitch-image-1660903068.png);
     background-size: cover;
   }
+}
+@media (max-width: 767px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h4 {
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .content-warp {
+    text-align: center;
+  }
+}
+
+.buttons {
+  margin: 0 auto;
+  width: 200px;
+  background: transparent;
+  border: 1px solid;
+  border-color: var(--bs-btn-bg);
+  color: var(--bs-btn-bg);
+  border-radius: 4px;
+  padding: 18px 20px;
+}
+
+.content-warp {
+  padding: 0 30px;
+}
+
+.cont {
+  text-align: start;
 }
 
 .footer {
