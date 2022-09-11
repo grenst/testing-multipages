@@ -200,6 +200,11 @@ p {
     border-top: 0 solid transparent;
     padding: 8px 0px;
   }
+
+  .link {
+    display: block;
+    text-align: center;
+  }
 }
 
 .buttons {
@@ -225,6 +230,13 @@ p {
 
 .content-warp {
   padding: 0 30px;
+}
+
+.contactpage {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding-top: 100px;
+  transition: all 0.3s;
 }
 
 .cont {
