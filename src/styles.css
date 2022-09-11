@@ -176,6 +176,16 @@ p {
     width: 90%;
   }
 
+  .logo {
+    width: 45px;
+    height: 40px;
+    background-image: url(/images/logo-shecodes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: glitch 3.5s infinite steps(1);
+    transition: all 0.2s;
+  }
+
   .content-warp {
     text-align: center;
   }
